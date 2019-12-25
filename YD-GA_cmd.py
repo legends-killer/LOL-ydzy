@@ -272,8 +272,8 @@ def main(heros_list= [], team_pnum= 8, shovel = False, gens = 100, sample = 50):
     print(team)
     teamScore, change = calculateTeamScore(team= team, show = 1, shovel= shovel)
 #     print(teamScore)
-	if shovel:
-		print('铲子变个{}'.format(change))
+    if shovel:
+        print('铲子变个{}'.format(change))
     heros = getHeroFromid(besTeam, heros_info= heros_info)
     print(heros)
     
